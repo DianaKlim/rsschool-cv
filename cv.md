@@ -18,3 +18,25 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 * Git
 * Photoshop
 * Editors: VSCode, Atom
+
+## Code Example
+
+unction sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+
+
+## Experience
+Nothing yet…
+
+## Education
+University: Belarusian National Technical University
+ 1. Department of Infocommunications (Engineer)
+ 2. Department of Engineering Psychology and Ergonomics (Master)
+
+## Languages
+* Russian - native speaker
+* English - A1 (A2 in process…)
