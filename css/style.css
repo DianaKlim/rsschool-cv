@@ -1,3 +1,95 @@
-<h1 style="color:blue;">Это синий заголовок</h1>
+/* @font-face {
+    font-family: pfdin;
+     src: url ("assets/fonts/pfdintextcondpro-regular.ttf");
+   } */
 
-<p style="color:red;">Красный параграф.</p>
+* {
+    box-sizing: border-box; /*универсальный селектор (звездочка) подразумевает все элементы встретившиеся на странице. Благодаря свойству box-sizing: border-box; границы и внутренние отступы будут учитываться в значениях, которые вы указываете в ширине и высоте элемента. Это упрощает работу с размерами, позволяет указывать их более логично*/
+}
+
+.body {
+    display: flex; 
+    flex-direction: column;  /*переопределили направление главной оси - теперь она вертикальная*/
+    justify-content: space-between; /* выравнивание элементов по главной оси (вертикали). все элементы размещаются на максимальном расстоянии друг от друга, крайние прижаты к границам родителя. */
+    min-height: 10%;
+    margin: 0;
+    padding: 0;
+    font-family: "pfdin";  /* в css элементу body указываем свойство font-family: 'Roboto';, элементам, в которых используется шрифт с разной насыщенностью, указываем свойство font-weight */
+    font-size:x-large;
+   
+}
+
+
+.nav-list {
+    display: flex; /*в строку */
+    justify-content: flex-end; /* сдвиг вправо */
+    align-items: center; /* выровнять по центру и высоте */
+    justify-content: space-evenly;
+  }
+
+.сontainer {
+    margin: 0 auto;
+    wax-width: 1440px;
+    
+}
+
+ .header {
+     width: 100%;
+     height: 10%;
+     background-color: #FFC0C7;
+    
+ }
+
+ .line {
+    width: 50%;
+    height: 5px; 
+    border: 0;
+    background-color:  #FFC0C7;
+    
+ }
+
+ .main {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+ }
+
+.img {
+    display: block;
+    margin: 0 auto;
+}
+ .section {
+     margin: 50px;
+ }
+
+ .title {
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Roboto-Bold;
+ }
+
+ .snippet {
+     float: left;
+     font-size: 18px;
+ }
+
+ .footer {
+     width: 100%;
+     height: 10%;
+     padding: 2%;
+     background-color: #FFC0C7;
+ }
+
+ 
+ .text-footer {
+    padding: 9%;
+
+
+ }
+
+ .logo {
+    float:right; 
+    width: 13%;
+
+ }

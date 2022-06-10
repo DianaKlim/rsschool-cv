@@ -1,17 +1,135 @@
-<!DOCTYPE HTML>
-<html>
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>CV Diana Klimkova</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="assets/svg/dk.ico">
+        <style>
+            @font-face {
+    font-family: pfdin;
+     src: url("assets/fonts/pfdintextcondpro-regular.ttf");
+    }
+        </style>
+   </head>
 
-<body>
+    <body class="body">
+       <header class="header">
+         <div class="container"> <!--центрирует контент на странице по горизонтали -->
+            
 
-  <p>Перед скриптом...</p>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+          </nav>
+        
+        </div>
+        </header>
 
-  <script>
-    alert( 'Привет, мир!' );
-  </script>
-   <link rel="stylesheet" type="text/css" href="style.css">
+       
+       <main class="main"> 
+        <div class="container"> 
+        
+            <section class="section" id="profile">
+                <h1 class="title"> Diana Klimkova </h1>
+                    <img class="img" src="assets/img/my_photo_for_cv.jpg" alt="photo_Diana">
 
-  <p>...После скрипта.</p>
+            </section>
 
-</body>
+             <hr class="line"> <!--разделитель -->
 
-</html>
+            <section class="section" id="contacts">
+                <h2> Contacts </h2>
+                <nav class="nav-list-contacts">
+                    <ul>
+                    <li class="nav-item">Location: Minsk, Belarus</li>
+                    <li class="nav-item"> <a href="https://t.me/dianaklimkova"> +375 44 766 75 33 </a> </li>
+                    <li class="nav-item">Email: diana.klimsmm@gmail.com </li>
+                    <li class="nav-item"> <a href="https://github.com/DianaKlim"> DianaKlim </a> </li>
+                    <li class="nav-item"> <a href=" https://discordapp.com/users/978692699727216650"> Discrord: Diana klim #5341 </a></li>
+                </ul>
+                </nav>
+            </section>
+
+            <section class="section" id="summary">
+                <h2> Summary </h2>
+                <span> Now I work as a marketer and have to work with lendings design on special services. I liked it and I joined the course at RS School in the hope that I could make sites without an intermediary on my own. I am very persistent and have a great desire to develop in the field of programming! :)</span>
+            </section>
+
+            <section class="section" id="skills">
+                <h2> Skills </h2>
+                <nav class="nav-list-skills">
+                    <ul>
+                    <li class="nav-item">HTML</li>
+                    <li class="nav-item">CSS</li>
+                    <li class="nav-item">JavaScript (Basic)</li>
+                    <li class="nav-item">Git</li>
+                    <li class="nav-item">Photoshop</li>
+                    <li class="nav-item">Editors: VSCode, Atom</li>
+                </ul>
+                </nav>
+            </section>        
+                
+
+            <section class="section" id="code-example">
+                <h2> Code Example </h2>
+                <pre>
+                    <code class="snippet"> function multiply(a, b)
+ {return a * b} </code>
+                    </pre>
+            </section>
+
+
+            <section class="section" id="projects">
+                <h2> Projects </h2>
+                <span> Task: <a href="https://dianaklim.github.io/rsschool-cv/cv"> Markdown & Git </a> </span>
+            </section>
+
+            <section class="section" id="education">
+             <h2> Education </h2>
+             <span> 
+                Belarusian National Technical University </span>
+                    <ol> 
+                        <li> Department of Infocommunications (Engineer)</li> 
+                        <li> Department of Engineering Psychology and Ergonomics (Master)</li> 
+                    </ol>
+                 Languages 
+                 <ul>
+                    <li> Russian - native speaker</li>
+                    <li> English - A2 (B1 in process…)</li>
+                </ul>
+            </section>
+               
+        <!-- <table width="100%" cellspacing="0" cellpadding="5">
+                  <tr> 
+                   <tb width="200" valign="top"> Left column </tb> 
+                   <td valign="top"> Right column</td>
+                 </tr>
+                 </table> -->
+        
+        </div>
+       </main>
+
+
+
+       <footer class="footer">
+            <div class="container">  
+                    <span class="text-footer"> 2022 </span>
+                    <a href="https://github.com/DianaKlim"> <span class="text-footer"> GitHub: DianaKlim </span> </a> 
+                    <a href="https://rs.school/js/"> </a>
+                    <img class="logo" src="assets/img/rs_school_js.png" alt="logo_rs-school">
+                    
+            </div>
+        </footer>
+         
+   </body>
+   </html>
+   
