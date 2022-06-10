@@ -21,7 +21,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 ## Code Example
 
-unction sum(a, b) {
+function sum(a, b) {
   return a + b;
 }
 
