@@ -1,1 +1,1 @@
-https://DianaKlim.github.io/rsschool-cv/
+https://DianaKlim.github.io/rsschool-cv/CV_Diana
